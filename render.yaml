@@ -1,10 +1,11 @@
 services:
   - type: web
     name: n8n
-    env: docker
+    env: node
     plan: free
-    repo: https://github.com/amane421/n8n
-    dockerfilePath: Dockerfile
+    repo: https://github.com/amane421/n8n-render-template
+    branch: main
+    startCommand: npm run start
     envVars:
       - key: N8N_BASIC_AUTH_USER
         value: amane
