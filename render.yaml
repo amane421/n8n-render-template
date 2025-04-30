@@ -15,4 +15,4 @@ services:
       - key: N8N_PORT
         value: 5678
       - key: N8N_EDITOR_BASE_URL
-        value: https://n8n-deploy-xxxx.onrender.com
+        value: https://n8n-tzwo.onrender.com
